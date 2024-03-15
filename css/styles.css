@@ -1,0 +1,112 @@
+body {
+}
+
+@font-face {
+  font-family: "Viera";
+  src: url(/font/Hello.otf);
+}
+
+@font-face {
+  font-family: "Hello";
+  src: url(/font/Hello.otf);
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url(arial.ttf);
+}
+
+
+h1 {
+  font-family: "Hello";
+  color: #ffffff;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Hello";
+  text-align: left;
+  color: #FA8072;
+  font-size: 26px;
+}
+
+
+p {
+  font-family: "Arial";
+  font-size: 17px;
+  color: #000000;
+}
+
+h4 {
+  text-align: center;
+  color: #ffffff;
+}
+
+#titulo {
+  background-color: #FA8072;
+  margin: 0 auto;
+}
+
+#nav {
+    background-color: #FFE4E1;
+    overflow: hidden;
+    padding:10px;
+}
+
+nav ul{
+    list-style:none;
+    margin-left: 450px;
+    margin-right: 0;
+    padding:0;
+}
+
+nav ul li{
+  font-family: "Arial";
+  font-size: 17px;
+  float:left;
+  margin-right:30px;
+}
+
+nav ul li a{
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #FA8072;
+  text-decoration: none;
+}
+
+#parte1 {
+  background-color: #ffffff;
+  margin: 35px;
+}
+
+#parte2 {
+  margin: 35px;
+}
+
+#parte2 p {
+  text-align: center;
+  font-size: 14px;
+}
+
+#parte3 {
+  background-color: #FA8072;
+  margin: 0 auto;
+}
+
+#parte3 h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+#parte3 p {
+  color: #ffffff;
+}
+
+#im {
+  background-color: #FA8072;
+  padding: 0px;
+  width: 300px;
+  border-radius: 2.5px;
+}
