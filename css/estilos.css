@@ -1,17 +1,17 @@
 @font-face {
     font-family: proxima-nova;
-    src: url(/fonts/Proxima-Nova-Bold.otf);
+    src: url(../fonts/Proxima-Nova-Bold.otf);
 }
 
 @font-face {
     font-family: proxima-nova-regular;
-    src: url(/fonts/Proxima-Nova-Regular.otf);
+    src: url(../fonts/Proxima-Nova-Regular.otf);
 }  
 
 @font-face {
     font-family: Din-Condensed;
-    src:url(/fonts/D-DIN-Condensed.ttf.woff) format('woff'),
-        url(/fonts/D-DIN-Condensed.ttf.svg) format('svg'),
+    src:url(../fonts/D-DIN-Condensed.ttf.woff) format('woff'),
+        url(../fonts/D-DIN-Condensed.ttf.svg) format('svg'),
 }
 
 header{
