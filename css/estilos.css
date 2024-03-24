@@ -1,11 +1,11 @@
 @font-face {
     font-family: proxima-nova;
-    src: url(../fonts/Proxima-Nova-Bold.otf);
+    src: url(../fonts/Proxima-Nova-Bold.otf); format('otf');
 }
 
 @font-face {
     font-family: proxima-nova-regular;
-    src: url(../fonts/Proxima-Nova-Regular.otf);
+    src: url(../fonts/Proxima-Nova-Regular.otf) format('otf');
 }  
 
 @font-face {
@@ -175,6 +175,7 @@ button {
     text-transform: uppercase;
     margin: auto;
     display: block;
+    
 }
 button:hover {
     background-color: black;
