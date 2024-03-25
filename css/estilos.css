@@ -78,7 +78,7 @@ table {
     background-color: lightblue;
     table-layout: auto;
     display: inline-table;
-    position: absolute;
+    position: static;
     top: 50px;
     width: 100%;
     border-collapse: separate;
