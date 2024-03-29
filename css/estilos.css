@@ -189,25 +189,29 @@ footer {
     padding: 2em 0;
 }
 
-.footer-payments {
+div.footer-payments {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 
-ul.payments {
+div ul.payments {
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 0.5em;
 }
 
-li.cards {
-    margin: 0 0.75em 0 0;
+div ul li.cards {
+    display: inline-flex;
 }
 
 li.cards img {
     width: 40px;
     height: 22.5px;
-    border-radius: 2px; 
+    border-radius: 2px;
 }
 
 li.cards img:hover {
@@ -230,7 +234,7 @@ li.cards img#american {
     background-color: #006ad5;
 }
 
-.footer-payments p {
+div.footer-payments p {
     color: #fafafa;
 }
 
